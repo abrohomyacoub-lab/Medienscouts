@@ -472,7 +472,7 @@ footer a{color:var(--gd);font-weight:600}
 <script>
 /* ===== SUPABASE (Ticket-Speicher) – hier deine zwei Werte eintragen ===== */
 window.SB={
-  url:'https://wkqmssmnyczlfjxfpwzq.supabase.co/rest/v1/',
+  url:'https://wkqmssmnyczlfjxfpwzq.supabase.co',
   key:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndrcW1zc21ueWN6bGZqeGZwd3pxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTQ0OTQ0NTQsImV4cCI6MjExMDA3MDQ1NH0.21Q6bGukzJc3OWs_TB79C_OGtQMf04tXN60ipsnTkzw',
   on:function(){return this.url.indexOf('HIER')!==0&&this.key.indexOf('HIER')!==0},
   tok:function(){try{return JSON.parse(sessionStorage.getItem('ms_sb')).access_token}catch(e){return null}},
